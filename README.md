@@ -13,9 +13,11 @@
 
 Один из способов применения - это создание комплексных чисел:
 
-from complex_number import ComplexNumber
 
 # Создание комплексных чисел
+
+from complex_number import ComplexNumber
+
 num1 = ComplexNumber(3, 4)    # 3 + 4i
 num2 = ComplexNumber(1, -2)   # 1 - 2i  
 num3 = ComplexNumber(0, 5)    # 5i
